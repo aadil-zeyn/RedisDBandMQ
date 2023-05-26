@@ -1,0 +1,2 @@
+@Cacheable(key = "#id",value = "Product")
+@CacheEvict(key = "#id",value = "Product")
